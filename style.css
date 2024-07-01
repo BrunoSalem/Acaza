@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.brand-icon {
+    height: 50px;
+    margin-right: 15px;
+}
+
+.brand-name {
+    font-size: 32px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #e72770;
+}
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.menu li {
+    margin-right: 20px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons .btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #e72770;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-buttons .btn:hover {
+    background-color: #f4f4f4;
+}
+
+.hero-image {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.intro-text {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le texte d'introduction */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px; /* Ajouter une marge supérieure pour descendre le texte */
+    font-size: 24px; /* Taille du texte pour le texte d'introduction */
+}
+
+.header-content {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.forms-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form, .registration-form {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.search-form {
+    background-color: rgba(231, 39, 112, 0.8); /* Couleur de fond pour le formulaire de recherche */
+    border: 1px solid rgba(231, 39, 112, 0.4);
+}
+
+.registration-form {
+    background-color: rgba(39, 112, 231, 0.8); /* Couleur de fond pour le formulaire d'inscription */
+    border: 1px solid rgba(39, 112, 231, 0.4);
+}
+
+.search-form h2, .registration-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.search-form select, .search-form input, .registration-form input {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-form button, .registration-form button {
+    padding: 10px 20px;
+    background-color: rgba(231, 39, 112, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form button {
+    background-color: rgba(39, 112, 231, 1);
+}
+
+#services {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+#services h1 {
+    font-size: 2em; /* Taille du texte pour le titre des services */
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    max-width: 20%;
+    height: 20%;
+}
+
+.service-item h3 {
+    margin-top: 10px;
+    font-size: 1.2em; /* Taille du texte pour les titres des services */
+}
+
+#contact {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+#contact h1 {
+    font-size: 2em; /* Taille du texte pour le titre de contact */
+}
+
+footer {
+    background-color: #e72770;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Taille du texte pour les liens de footer */
+}

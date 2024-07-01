@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre professionnel francophone en Andalousie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="brand-container">
+        <img src="icone-balai-menage.png" alt="Icone" class="brand-icon"> <!-- Remplacez par le chemin de votre icône de service -->
+        <h1 class="brand-name">Acasa</h1>
+    </div>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Nos Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <button class="btn">Se connecter</button>
+            <button class="btn">S'inscrire en tant que pro</button>
+        </div>
+    </nav>
+
+    <header id="accueil">
+        <div class="hero-image" style="background-image: url('img/malaga-1.jpg');">
+            <div class="intro-text">
+                <h2>Acasa, la plateforme de mise en relation entre particuliers et professionnels, en Andalousie</h2>
+            </div>
+            <div class="header-content">
+                <div class="forms-container">
+                    <div class="search-form">
+                        <h2>Vous cherchez un pro en Andalousie ?</h2>
+                        <select id="service" name="service">
+                            <option value="" disabled selected>Type de service</option>
+                            <option value="aide_menagere">Aide ménagère</option>
+                            <option value="repassage">Repassage</option>
+                            <option value="plomberie">Plomberie</option>
+                            <option value="jardinage">Jardinage</option>
+                            <option value="garde_enfants">Garde d'enfants</option>
+                            <option value="pisciniste">Pisciniste</option>
+                            <option value="electricite">Électricité</option>
+                            <option value="pet_sitting">Pet sitting</option>
+                            <option value="conciergerie">Conciergerie</option>
+                            <option value="traduction">Traduction</option>
+                            <option value="immobilier">Immobilier</option>
+                        </select>
+                        <input type="date" id="date" name="date">
+                        <select id="zone" name="zone">
+                            <option value="" disabled selected>Zone géographique</option>
+                            <option value="malaga">Málaga</option>
+                            <option value="sevilla">Séville</option>
+                            <option value="granada">Grenade</option>
+                            <option value="cordoba">Cordoue</option>
+                            <option value="cadiz">Cadix</option>
+                            <option value="almeria">Almería</option>
+                            <option value="huelva">Huelva</option>
+                            <option value="jaen">Jaén</option>
+                        </select>
+                        <button type="submit">Rechercher</button>
+                    </div>
+                    <div class="registration-form">
+                        <h2>Vous êtes un pro basé en Andalousie ?<br> Vous parlez français et anglais ?<br>Inscrivez-vous sur la plateforme</h2>
+                        <input type="text" id="name" name="name" placeholder="Nom">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <input type="text" id="profession" name="profession" placeholder="Profession">
+                        <button type="submit">S'inscrire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="services">
+        <h1>Nos Services</h1>
+        <div class="services-grid">
+            <!-- Services pour les personnes âgées -->
+            <div class="service-item">
+                <img src="icones/menage.png" alt="Aide au ménage">
+                <h3>Aide au ménage</h3>
+            </div>
+            <div class="service-item">
+                <img src="icones/repassage.png" alt="Repassage">
+                <h3>Repassage</h3>
+            </div>
+            <div class="service-item">
+                <img src="icones/plombier.png" alt="Service de plomberie">
+                <h3>Service de plomberie</h3>
+            </div>
+            <div class="service-item">
+                <img src="icones/jardinage.png" alt="Service de jardinage">
+                <h3>Service de jardinage</h3>
+            </div>
+
+            <div class="service-item">
+                <img src="icones/garde_d_enfant.png" alt="Garde d'enfants">
+                <h3>Garde d'enfants</h3>
+            </div>
+
+            <div class="service-item">
+                <img src="icones/piscine.png" alt="Aide à l'entretien extérieur + pisciniste">
+                <h3>Aide à l'entretien extérieur + pisciniste</h3>
+            </div>
+
+            <!-- Services pour les personnes seules -->
+
+            <div class="service-item">
+                <img src="icones/electricien.png" alt="Électricité">
+                <h3>Électricité</h3>
+            </div>
+
+            <!-- Pistes supplémentaires de services à proposer -->
+            <div class="service-item">
+                <img src="icones/pet_sitting.png" alt="Pet sitting">
+                <h3>Pet sitting</h3>
+            </div>
+            <div class="service-item">
+                <img src="icones/conciergerie.png" alt="Services de conciergerie">
+                <h3>Services de conciergerie</h3>
+            </div>
+            <div class="service-item">
+                <img src="icones/traduction.png" alt="Services de traduction">
+                <h3>Services de traduction</h3>
+            </div>
+            <!-- Ajouter d'autres services selon besoin -->
+            <div class="service-item">
+                <img src="icones/immobilier.png" alt="Immobilier">
+                <h3> Services immobiliers</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Pour plus d'informations ou pour planifier une visite, n'hésitez pas à nous contacter.</p>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Nos Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Mentions Légales</a></li>
+            <li><a href="#">Politique de Confidentialité</a></li>
+        </ul>
+    </footer>
+
+    <script src="languageSwitcher.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
